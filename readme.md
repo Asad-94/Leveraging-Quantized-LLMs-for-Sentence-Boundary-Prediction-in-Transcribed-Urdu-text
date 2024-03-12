@@ -6,7 +6,7 @@ Various techniques have been employed to improve sentence boundary detection in 
 
 However, fine-tuning the Llama2-7b model using the QLoRA method did not yield satisfactory outcomes. The resulting punctuated Urdu sentences did not consistently align with correct sentence structures and occasionally included non-Urdu words.
 
-##__________________________________________________________________________________________________________________________________________________________________________________________________________________________
+_______________________________________________________________________________________________________________________________________
 
 ### One-shot learning example:
 
@@ -14,7 +14,7 @@ Input Example (unpunctuated sentence):
 مجھے سخت زمین والا وہ گندا گھر اچھا نہ یں لگتا یہاں کتنی نرم گھاس ہے سونے میں کتنا مزہ آئے گا
 
 Original Sentence (with punctuations):
-مجھے سخت زمین والا وہ گندا گھر اچھا نہ یں لگتا۔ یہاں کتنی نرم گھاس ہے، سونے م یں کتنا مزہ آئے گا۔
+مجھے سخت زمین والا وہ گندا گھر اچھا نہ یں لگتا۔ یہاں کتنی نرم گھاس ہے، سونے میں کتنا مزہ آئے گا۔
 
 LLM generated sentence (with predicted punctuations):
 مجھے سخت زمین والا وہ گندا گھر اچھا نہ یں لگتا، یہاں کتنی نرم گھاس ہے، سونے میں کتنا مزہ آئے گا۔
